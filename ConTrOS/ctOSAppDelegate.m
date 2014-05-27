@@ -14,8 +14,38 @@
 {
     // Override point for customization after application launch.
     return YES;
+    
+    if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone)
+    {
+        CGSize iOSDeviceScreenSize = [[UIScreen mainScreen] bounds].size;
+        
+        if (iOSDeviceScreenSize.height == 480)
+        {
+            UIStoryboard *iPhone35Storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+            
+            UIViewController *initialViewController = [iPhone35Storyboard instantiateInitialViewController];
+            
+            self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+                            
+                            self.window.rootViewController = initialViewController;
+                            
+                            [self.window makeKeyAndVisible];
+        }
+        else if (iOSDeviceScreenSize.height == 568)
+        {
+            UIStoryboard *iPhone4Storyboard = [UIStoryboard storyboardWithName:@"Main_568" bundle:nil];
+            
+            UIViewController *initialViewController = [iPhone4Storyboard instantiateInitialViewController];
+            
+            self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+            
+            self.window.rootViewController = initialViewController;
+            
+            [self.window makeKeyAndVisible];
+        }
+    }
 }
-							
+				
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

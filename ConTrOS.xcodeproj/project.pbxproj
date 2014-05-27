@@ -13,7 +13,7 @@
 		FD6034621934C0C400FBC3C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD6034601934C0C400FBC3C4 /* InfoPlist.strings */; };
 		FD6034641934C0C400FBC3C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6034631934C0C400FBC3C4 /* main.m */; };
 		FD6034681934C0C400FBC3C4 /* ctOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6034671934C0C400FBC3C4 /* ctOSAppDelegate.m */; };
-		FD60346B1934C0C400FBC3C4 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6034691934C0C400FBC3C4 /* Main_iPhone.storyboard */; };
+		FD60346B1934C0C400FBC3C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6034691934C0C400FBC3C4 /* Main.storyboard */; };
 		FD60346E1934C0C400FBC3C4 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD60346C1934C0C400FBC3C4 /* Main_iPad.storyboard */; };
 		FD6034711934C0C400FBC3C4 /* ctOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6034701934C0C400FBC3C4 /* ctOSViewController.m */; };
 		FD6034731934C0C400FBC3C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6034721934C0C400FBC3C4 /* Images.xcassets */; };
@@ -22,6 +22,7 @@
 		FD60347C1934C0C400FBC3C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD60345B1934C0C400FBC3C4 /* UIKit.framework */; };
 		FD6034841934C0C400FBC3C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD6034821934C0C400FBC3C4 /* InfoPlist.strings */; };
 		FD6034861934C0C400FBC3C4 /* ConTrOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6034851934C0C400FBC3C4 /* ConTrOSTests.m */; };
+		FD6034901934C57100FBC3C4 /* Main_568h.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD60348F1934C57100FBC3C4 /* Main_568h.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +46,7 @@
 		FD6034651934C0C400FBC3C4 /* ConTrOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConTrOS-Prefix.pch"; sourceTree = "<group>"; };
 		FD6034661934C0C400FBC3C4 /* ctOSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ctOSAppDelegate.h; sourceTree = "<group>"; };
 		FD6034671934C0C400FBC3C4 /* ctOSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ctOSAppDelegate.m; sourceTree = "<group>"; };
-		FD60346A1934C0C400FBC3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		FD60346A1934C0C400FBC3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD60346D1934C0C400FBC3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		FD60346F1934C0C400FBC3C4 /* ctOSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ctOSViewController.h; sourceTree = "<group>"; };
 		FD6034701934C0C400FBC3C4 /* ctOSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ctOSViewController.m; sourceTree = "<group>"; };
@@ -55,6 +56,7 @@
 		FD6034811934C0C400FBC3C4 /* ConTrOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConTrOSTests-Info.plist"; sourceTree = "<group>"; };
 		FD6034831934C0C400FBC3C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FD6034851934C0C400FBC3C4 /* ConTrOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConTrOSTests.m; sourceTree = "<group>"; };
+		FD60348F1934C57100FBC3C4 /* Main_568h.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_568h.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +118,8 @@
 			children = (
 				FD6034661934C0C400FBC3C4 /* ctOSAppDelegate.h */,
 				FD6034671934C0C400FBC3C4 /* ctOSAppDelegate.m */,
-				FD6034691934C0C400FBC3C4 /* Main_iPhone.storyboard */,
+				FD60348F1934C57100FBC3C4 /* Main_568h.storyboard */,
+				FD6034691934C0C400FBC3C4 /* Main.storyboard */,
 				FD60346C1934C0C400FBC3C4 /* Main_iPad.storyboard */,
 				FD60346F1934C0C400FBC3C4 /* ctOSViewController.h */,
 				FD6034701934C0C400FBC3C4 /* ctOSViewController.m */,
@@ -234,7 +237,8 @@
 			files = (
 				FD60346E1934C0C400FBC3C4 /* Main_iPad.storyboard in Resources */,
 				FD6034731934C0C400FBC3C4 /* Images.xcassets in Resources */,
-				FD60346B1934C0C400FBC3C4 /* Main_iPhone.storyboard in Resources */,
+				FD6034901934C57100FBC3C4 /* Main_568h.storyboard in Resources */,
+				FD60346B1934C0C400FBC3C4 /* Main.storyboard in Resources */,
 				FD6034621934C0C400FBC3C4 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,12 +291,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		FD6034691934C0C400FBC3C4 /* Main_iPhone.storyboard */ = {
+		FD6034691934C0C400FBC3C4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FD60346A1934C0C400FBC3C4 /* Base */,
 			);
-			name = Main_iPhone.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		FD60346C1934C0C400FBC3C4 /* Main_iPad.storyboard */ = {
