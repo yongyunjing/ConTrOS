@@ -21,7 +21,7 @@
         
         if (iOSDeviceScreenSize.height == 480)
         {
-            UIStoryboard *iPhone35Storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+            UIStoryboard *iPhone35Storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard_iPhone" bundle:nil];
             
             UIViewController *initialViewController = [iPhone35Storyboard instantiateInitialViewController];
             
@@ -33,7 +33,7 @@
         }
         else if (iOSDeviceScreenSize.height == 568)
         {
-            UIStoryboard *iPhone4Storyboard = [UIStoryboard storyboardWithName:@"Main_568" bundle:nil];
+            UIStoryboard *iPhone4Storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard-568h" bundle:nil];
             
             UIViewController *initialViewController = [iPhone4Storyboard instantiateInitialViewController];
             
@@ -43,6 +43,16 @@
             
             [self.window makeKeyAndVisible];
         }
+    }
+    
+    else if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad)
+        
+    {   // The iOS device = iPad
+        
+        UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
+        UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
+        splitViewController.delegate = (id)navigationController.topViewController;
+        
     }
 }
 				
