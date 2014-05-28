@@ -475,6 +475,7 @@
 				FD60348B1934C0C400FBC3C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD60348C1934C0C400FBC3C4 /* Build configuration list for PBXNativeTarget "ConTrOSTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +484,7 @@
 				FD60348E1934C0C400FBC3C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
