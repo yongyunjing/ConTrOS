@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD5542FB19377DB200EB0059 /* ctOS_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = FD5542FA19377DB100EB0059 /* ctOS_BG.png */; };
+		FD5542FE19378DCE00EB0059 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5542FD19378DCE00EB0059 /* MediaPlayer.framework */; };
 		FD6034581934C0C400FBC3C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6034571934C0C400FBC3C4 /* Foundation.framework */; };
 		FD60345A1934C0C400FBC3C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6034591934C0C400FBC3C4 /* CoreGraphics.framework */; };
 		FD60345C1934C0C400FBC3C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD60345B1934C0C400FBC3C4 /* UIKit.framework */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD5542FA19377DB100EB0059 /* ctOS_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ctOS_BG.png; sourceTree = "<group>"; };
+		FD5542FD19378DCE00EB0059 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		FD6034541934C0C400FBC3C4 /* ConTrOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConTrOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD6034571934C0C400FBC3C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FD6034591934C0C400FBC3C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD5542FE19378DCE00EB0059 /* MediaPlayer.framework in Frameworks */,
 				FD60345A1934C0C400FBC3C4 /* CoreGraphics.framework in Frameworks */,
 				FD60345C1934C0C400FBC3C4 /* UIKit.framework in Frameworks */,
 				FD6034581934C0C400FBC3C4 /* Foundation.framework in Frameworks */,
@@ -83,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD5542FC19377DB800EB0059 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FD5542FA19377DB100EB0059 /* ctOS_BG.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		FD60344B1934C0C400FBC3C4 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +118,7 @@
 		FD6034561934C0C400FBC3C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FD5542FD19378DCE00EB0059 /* MediaPlayer.framework */,
 				FD6034571934C0C400FBC3C4 /* Foundation.framework */,
 				FD6034591934C0C400FBC3C4 /* CoreGraphics.framework */,
 				FD60345B1934C0C400FBC3C4 /* UIKit.framework */,
@@ -124,6 +138,7 @@
 				FD60346F1934C0C400FBC3C4 /* ctOSViewController.h */,
 				FD6034701934C0C400FBC3C4 /* ctOSViewController.m */,
 				FD6034721934C0C400FBC3C4 /* Images.xcassets */,
+				FD5542FC19377DB800EB0059 /* Assets */,
 				FD60345E1934C0C400FBC3C4 /* Supporting Files */,
 			);
 			path = ConTrOS;
@@ -240,6 +255,7 @@
 				FD6034901934C57100FBC3C4 /* MainStoryboard-568h.storyboard in Resources */,
 				FD60346B1934C0C400FBC3C4 /* MainStoryboard_iPhone.storyboard in Resources */,
 				FD6034621934C0C400FBC3C4 /* InfoPlist.strings in Resources */,
+				FD5542FB19377DB200EB0059 /* ctOS_BG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
